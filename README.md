@@ -18,12 +18,6 @@ A professional golf charity platform featuring secure authentication, role-based
 - **Leaderboard Logic:** Implemented 5-score rolling average and winner verification logic as per PRD.
 - **Responsive UI:** Modern, mobile-friendly design using Tailwind CSS.
 
-##  Infrastructure & Troubleshooting
-During deployment, I successfully resolved the following production hurdles:
-- **Dependency Resolution:** Fixed Vite 8 / React environment conflicts using `--legacy-peer-deps`.
-- **Permission Fixes:** Resolved Vercel Error 126 by optimizing the repository structure and removing local `node_modules` from Git tracking.
-- **CORS Configuration:** Established secure cross-origin communication between Vercel and Render.
-
 ##  Installation
 1. Clone the repo: `git clone https://github.com/vivek7941/DigitalHeroes.git`
 2. Install Frontend: `cd frontend && npm install`

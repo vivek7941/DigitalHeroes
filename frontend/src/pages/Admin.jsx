@@ -246,13 +246,13 @@ const AdminPanel = () => {
                       onClick={() => handleApproveWinner(winner.drawId, winner.winnerId)} 
                       className="flex-1 bg-green-100 text-green-600 py-2 rounded-xl text-[9px] font-black uppercase hover:bg-green-600 hover:text-white transition-all"
                     >
-                      ✓ Approve
+                       Approve
                     </button>
                     <button 
                       onClick={() => handleRejectWinner(winner.drawId, winner.winnerId)}
                       className="flex-1 bg-red-100 text-red-600 py-2 rounded-xl text-[9px] font-black uppercase hover:bg-red-600 hover:text-white transition-all"
                     >
-                      ✗ Reject
+                       Reject
                     </button>
                   </div>
                 </div>
